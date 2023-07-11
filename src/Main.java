@@ -90,7 +90,7 @@ public class Main {
         var hourTotal = 640;
         var workingHour = 8;
         var people = hourTotal / workingHour;
-        System.out.println("Всего работиков в компании - " + people + " человек");
+        System.out.println(" Всего работиков в компании - " + people + " человек");
         var arrivedPeople = people + 94;
         var newWorkingHour = hourTotal / arrivedPeople;
         System.out.println("Если в компании работает " + arrivedPeople + " человека, то всего " + newWorkingHour + " часа работы может быть поделено между сотрудниками");
